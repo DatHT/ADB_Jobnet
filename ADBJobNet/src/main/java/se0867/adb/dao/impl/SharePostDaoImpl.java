@@ -37,5 +37,10 @@ public class SharePostDaoImpl implements ISharePostDao {
 		}else
 			return null;
 	}
+	@Override
+	public boolean shareJob(SharePost post) {
+		// TODO Auto-generated method stub
+		return (getSession().save(post) != null) ? true : false;
+	}
 
 }

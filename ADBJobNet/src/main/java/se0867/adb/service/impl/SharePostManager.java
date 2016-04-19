@@ -41,5 +41,12 @@ public class SharePostManager implements ISharePostManager {
 		}
 		return null;
 	}
+	
+	@Transactional
+	@Override
+	public boolean shareJob(SharePost post) {
+		// TODO Auto-generated method stub
+		return dao.shareJob(post);
+	}
 
 }

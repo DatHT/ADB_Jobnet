@@ -8,4 +8,5 @@ import se0867.adb.model.SharePost;
 public interface ISharePostDao {
 
 	public List<SharePost> loadSharePosts(List<FriendShipDto> friendships);
+	public boolean shareJob(SharePost post);
 }

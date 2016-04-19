@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -14,6 +16,7 @@ import org.apache.taglibs.standard.extra.spath.Step;
 public class SharePost {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
 	private int id;
 	
@@ -53,18 +56,16 @@ public class SharePost {
 
 	
 
-	public SharePost(int id, String memberEmail, int jobId, Date timeShare,
+	public SharePost(String memberEmail, int jobId, Date timeShare,
 			String description, String jobname, String jobDesciption,
-			String actMemberEmail, boolean isLike, String comment, int totalLike) {
+			 boolean isLike, String comment, int totalLike) {
 		super();
-		this.id = id;
 		this.memberEmail = memberEmail;
 		this.jobId = jobId;
 		this.timeShare = timeShare;
 		this.description = description;
 		this.jobname = jobname;
 		this.jobDesciption = jobDesciption;
-		this.actMemberEmail = actMemberEmail;
 		this.isLike = isLike;
 		this.comment = comment;
 		this.totalLike = totalLike;

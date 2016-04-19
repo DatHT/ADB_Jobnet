@@ -65,60 +65,61 @@
 				<div class="row-body hidden-xs hidden-sm">
 					<div class="welcome-users-inner">
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="resources/img/avatar/me.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/bush.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/woman-1.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/clition.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/guy-2.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/obama.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/woman-2.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/trump.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/guy-5.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/g.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/woman-3.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/f.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/guy-8.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/e.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/woman-4.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/d.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/guy-9.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/c.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/woman-7.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/b.jpg"
 								class="img-rounded">
 							</a>
 						</div>
 						<div class="welcome-user">
-							<a href="profile.html"> <img src="img/Friends/woman-7.jpg"
+							<a href="profile.html"> <img src="resources/img/avatar/a.jpg"
 								class="img-rounded">
 							</a>
 						</div>
+						
 					</div>
 				</div>
 			</div>
